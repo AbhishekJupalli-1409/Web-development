@@ -1,0 +1,15 @@
+
+IMPLEMENTING RTHE BELOW FEATURES
+
+
+
+
+GET / comments— list all comments  - INDEX
+
+POST / comments— Create a new comment - CREATE
+
+GET / comments/:id— Get one comment (using ID) - SHOW
+
+PATCH /comments/:id - upadtte the comments - UPDATE
+
+DELETE /comments/:id - delete the coments - DELETE

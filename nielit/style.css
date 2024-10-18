@@ -1,0 +1,11 @@
+.fixed {
+  position: fixed !important;
+  z-index: 10000000 !important;
+  display: flex !important;
+  flex-flow: wrap !important;
+  width: 21% !important;
+  
+
+  top: -1rem !important;
+  
+}

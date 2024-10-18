@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restful</title>
+</head>
+<body>
+
+
+    <h1>REST</h1>
+    <p>Represenatational state transfer protocal</p>
+    <h2>perform crud operations</h2>
+<H1>GET AND POST REQUESTS</H1>
+
+    <!-- INCLUDED IN THE QUERY STRING IT IS GET REQUEST,body is grreyed out in postpman -->
+     <h2>Get request</h2>
+    <form action="http://localhost:3000/tacos" method="get">
+        <input type="'text'" name = "meat">
+        <input type="number" name="qty">
+        <button>submit</button>
+    </form>
+
+    <!-- NOT INCLUDE IN QUERY STRING, ONLY SENT IN REQUEST BODY , body can be json,xml,html, its payload-->
+     <!-- HOW TO MAKE POST REQUEST TO EXPRESSS -->
+     <h2>Post request</h2>
+    <form action="http://localhost:3000/tacos" method="post">
+        <input type="'text'" name = "meat">
+        <input type="number" name="qty">
+        <button>submit</button>
+    </form>
+    
+</body>
+</html>

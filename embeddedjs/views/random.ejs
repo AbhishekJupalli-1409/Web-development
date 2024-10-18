@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number</title>        
+</head>
+<body>
+
+    <!-- WRITE CODE TO DIPLAY EVEN AND ODD NUMBER -->
+    <h1>Some random number : <%= num %></h1>
+
+    <% if(num%2==0){ %>
+    <h1>Thats an evn numebr</h1>
+    <%}else{%>
+    
+        <h1>Thats a odd number</h1>
+        <% } %>
+<p>here is a alternate way of doing it</p>
+        <h2><%= num%2===0?'EVEN':"ODD"  %></h2>
+</body>
+</html>

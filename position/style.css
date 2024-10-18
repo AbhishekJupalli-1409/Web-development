@@ -1,0 +1,46 @@
+div{
+    height: 7rem;
+    width: 7rem;
+    background-color: black;
+    margin: 1rem;
+    display: inline-block;
+    border: solid black 2px;
+}
+
+#Green{
+   
+    background-color: green;
+    color: white;
+    font-weight: 400;
+   
+}
+
+
+#static #Green{
+    position: static;
+}
+
+
+#relative #Green{
+    position: relative;
+    top:100px;
+    left: 200px;
+}
+
+/* #absolute{
+    position: relative;
+} */
+
+
+#absolute #Green{
+    position: absolute;
+    top:100px;
+    left: 200px;
+}
+
+
+#fixed #Green{
+    position: fixed;
+    top:10px;
+    left: 900px;
+}

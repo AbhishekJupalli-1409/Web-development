@@ -1,0 +1,12 @@
+# Ignore all node_modules directories in any subfolder
+node_modules/
+
+# You can also exclude specific files or folders if needed:
+# Example: Ignore all .env files
+.env
+
+# Example: Ignore log files
+*.log
+
+# If you want to allow some files inside an ignored directory, you can use ! to negate:
+# !node_modules/some-specific-file.js

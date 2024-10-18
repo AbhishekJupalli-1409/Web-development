@@ -1,0 +1,61 @@
+body {
+font-family: 'Open Sans',sans-serif,;
+}
+h1{
+    text-align: center;
+}
+
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:  center;
+    align-items: center;
+    
+
+    /*  FLEX DIRECTION
+    row==default
+    row-reverse
+    column - stacked
+    column-reverse ---> this case fit to the screen
+    */
+    /* JUSTIFY CONTENT 
+    flex start 
+    flex-end
+    center 
+    space-between 
+    space-evenly
+    space-around
+    */
+    /* 
+    ALIGN ITEMS 
+    mostly cross axis
+    alifgn items - flex-start
+    flex-end
+    */
+}
+
+
+#container div{
+    width: 200px;
+    height: 200px;
+}
+
+
+.first{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.sharp{
+    height: 100px !important;
+    width: 100px !important;
+    rotate: 45deg;
+    position: relative;
+    left: 80px;
+}
