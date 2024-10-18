@@ -42,3 +42,17 @@ app.get('/comments',(req, res)=> {
 
 
 
+app.get('/comments/new',(req, res)=> {
+    res.render('./comments/new.ejs',{comments});
+})
+
+app.post('/comments', (req, res) => {
+    const { username, comment } = req.body;
+    comments.push({username,comment})
+    console.log(req.body);
+    res.redirect('/comments')
+   
+})
+// Actually after this point we have to relad the page to view changes . How to do it without reload lets see
+
+// We can do thaqt using the redirection
