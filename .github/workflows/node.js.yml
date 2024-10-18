@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    timeout-minutes: 30  # Increase the timeout limit here
 
     runs-on: ubuntu-latest
 
