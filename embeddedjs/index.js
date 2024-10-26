@@ -1,11 +1,13 @@
 const express = require('express');
+const path = require('path');
 const app = express();
-const path = require('path'); // Path has a method called as the join
+
+// View Engine Setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs'); // Path has a method called as the join
 
 
 
-app.set('view engine','ejs')
-app.set('views',path.join(__dirname,'/views'))  //if this line is not there in will check in webdev/views folder
 app.get('/', (req, res) => {
 res.render('home.ejs') // default place it looks is indie the dir names views so we have to prepare this before hand
 })

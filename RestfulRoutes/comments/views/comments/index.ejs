@@ -10,11 +10,14 @@
     <!-- giving the file name as the index based on the reference image -->
     <h1>Comments</h1>
 
-
+<!-- Index page home -->
     <!-- Looping through all the comments -->
     <ul>
         <% for(let c of comments){%>
-            <li><%=c.username %> - <b><%=c.comment%></b></li> 
+            <li><%=c.username %> - <b><%=c.comment%></b>
+               
+            <a href="/comments/<%= c.id %>">details</a>
+            </li> 
         <%}%>
     </ul>
 
