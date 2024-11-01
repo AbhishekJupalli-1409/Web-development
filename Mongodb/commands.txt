@@ -10,12 +10,19 @@ CREATE
  db.dogs.find()-- displays all dogs with pointer -- in future we can iterate
  db.dogs.find().limit(2) -- give only 2 results
 
+Delete DB 
+ productApp> db.dropDatabase()
+ { ok: 1, dropped: 'productApp' }
+ productApp> show dbs
+
 UPDATE
  db.dogs.updateOne({name:'Abhi'},{$set:{age:20}}) -- use this specific $set to update db , we can add new value pairs too using this
  db.cats.updateOne({name:'Meow'},{$set:{age:6},$currentDate:{lastChanged:true}}) -- update age to 6 n currentDate{special function} to when its modified 
 
 DELETE
  db.cats.deleteOne({name:'hero'})  -- deleted the hero catFriendly
+ //while deleting 
+
  db.cats.deleteMany({}) -- Deletes all at one nothing left
  //We canuse fancy operators also to delete them or,< extra
 [
