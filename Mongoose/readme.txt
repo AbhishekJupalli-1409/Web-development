@@ -35,3 +35,13 @@ Product.findOneAndUpdate({name:'Tyre pump'},{price:200,new:true})
 //if we put new:true then only it will display new updated value
 then use this below one
 Product.findOneAndUpdate({name:'Tyre pump'},{price:200,new:true,runValidators:true})
+
+
+
+
+MIDDLEWARE
+
+//write code before or after something is written and executed like thatusing the MIDDLEWARE
+post and rpe hooks // hooks are synchronous
+//if u are deleting a user we have to delete all the user n his commentss from the app
+//while using mongoose dont use arrow functions at all
