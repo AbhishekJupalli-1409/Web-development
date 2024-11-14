@@ -59,3 +59,37 @@ h1{
     position: relative;
     left: 80px;
 }
+
+
+.circle1{
+    position: absolute;
+    border-radius: 100%;
+    /* border: black solid 2px; */
+    top:20%;
+    left: 42.2%;
+}
+
+.circle2{
+    position: absolute;
+    border-radius: 100%;
+    /* border: black solid 2px; */
+    top:60%;
+    left: 42.2%;
+}
+
+
+.circle3{
+     top:10.8%;
+    left: 63.1%;
+    position: absolute;
+    border-radius: 100%;
+    /* border: black solid 2px; */
+}
+
+.circle4{
+    position: absolute;
+    top:70.8%;
+    left: 63.1%;
+    border-radius: 100%;
+    /* border: black solid 2px; */
+}

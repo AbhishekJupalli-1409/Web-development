@@ -1,0 +1,16 @@
+section {
+  height: 800px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: purple;
+  background: url( https://images.unsplash.com/photo-1725610588109-71d0def86e19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) , rgba(173, 132, 9, 0.841) ;
+  background-blend-mode:difference;
+  background-size:contain;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+}
