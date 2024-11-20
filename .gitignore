@@ -10,3 +10,6 @@ node_modules/
 
 # If you want to allow some files inside an ignored directory, you can use ! to negate:
 # !node_modules/some-specific-file.js
+/Include
+/Lib
+/Scripts

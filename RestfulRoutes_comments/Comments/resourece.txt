@@ -1,0 +1,32 @@
+
+IMPLEMENTING RTHE BELOW FEATURES
+
+
+
+
+GET / comments— list all comments  - INDEX
+
+POST / comments— Create a new comment - CREATE
+
+GET / comments/:id— Get one comment (using ID) - SHOW
+
+PATCH /comments/:id - upadtte the comments - UPDATE
+
+DELETE /comments/:id - delete the coments - DELETE
+
+
+GOOD TO KNOW
+While u send any request it can send in parameters and using the body
+req-->params--in url
+req-->body-hidden payload can be seen in url
+
+
+in this u have learnt how to do get,post and how we are using join__dirname to exactly get to the location of pwd
+and no need to give file extension along with how to use ejs to dynamically modigy the code
+
+
+now we are going to see how to update a particular comments and PATCH them
+
+PUT - is the one which completely modify the code
+
+PATCH - it is the one which only modify it partially or something

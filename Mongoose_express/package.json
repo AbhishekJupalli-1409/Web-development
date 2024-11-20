@@ -62,11 +62,13 @@
     "jake": "^10.9.2",
     "media-typer": "^0.3.0",
     "merge-descriptors": "^1.0.3",
+    "method-override": "^3.0.0",
     "methods": "^1.1.2",
     "mime": "^1.6.0",
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
     "minimatch": "^3.1.2",
+    "mongoose": "^8.8.1",
     "ms": "^2.0.0",
     "negotiator": "^0.6.3",
     "nodemon": "^3.1.7",
@@ -102,7 +104,6 @@
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

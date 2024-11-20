@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+</head>
+<body>
+
+    <!-- giving the file name as the index based on the reference image -->
+    <h1>Comments</h1>
+
+<!-- Index page home -->
+    <!-- Looping through all the comments -->
+    <ul>
+        <% for(let c of comments){%>
+            <li><%=c.username %> - <b><%=c.comment%></b>
+               
+            <a href="/comments/<%= c.id %>">details</a>
+            </li> 
+        <%}%>
+    </ul>
+
+    <a href="comments/new">New comment</a>
+</body>
+</html>
